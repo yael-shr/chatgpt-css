@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT - Main</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            
+            <div class="nav-left">
+                <a href="index.html" class="brand">
+                    <svg class="logo-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 8v8M8 12h8"></path>
+                    </svg>
+                    <span class="brand-name">ChatGPT</span>
+                    <span class="dropdown-arrow">&#8250;</span>
+                </a>
+            </div>
+
+            <nav class="nav-center">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-item active">main</a></li>
+                    <li><a href="#" class="nav-item">Features</a></li>
+                    <li><a href="#" class="nav-item">Learn</a></li>
+                    <li><a href="#" class="nav-item">Business</a></li>
+                    <li><a href="#" class="nav-item">Pricing</a></li>
+                    <li><a href="images.html" class="nav-item">Images</a></li>
+                    <li><a href="agent.html" class="nav-item">agent</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-right">
+                <a href="#" class="btn btn-login">Log in</a>
+                <a href="#" class="btn btn-signup">Sign up for free</a>
+                <button type="button" class="btn-help" aria-label="Help">?</button>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <h1 class="main-title">What's on the agenda today?</h1>
+            
+            <form class="chat-box" action="#" method="get">
+                <div class="input-group">
+                    <input type="text" name="query" class="chat-input" placeholder="Ask anything" required>
+                </div>
+
+                <div class="buttons-bar">
+                    <div class="left-buttons">
+                        <button type="button" class="action-btn">
+                            <span class="btn-icon">&#128206;</span> Attach
+                        </button>
+                        <button type="button" class="action-btn">
+                            <span class="btn-icon">&#127760;</span> Search
+                        </button>
+                        <button type="button" class="action-btn">
+                            <span class="btn-icon">&#128214;</span> Study
+                        </button>
+                        <button type="button" class="action-btn">
+                            <span class="btn-icon">&#128444;</span> Create image
+                        </button>
+                    </div>
+                    <div class="right-buttons">
+                        <button type="button" class="action-btn voice-btn">
+                            <span class="btn-icon">&#127908;</span> Voice
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>

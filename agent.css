@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #ffffff;
+    color: #0d0d0d;
+    direction: ltr;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    padding: 10px 24px;
+    position: relative;
+}
+
+.nav-container {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.nav-left {
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.brand {
+    text-decoration: none;
+    color: #0d0d0d;
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.logo-icon {
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.brand-name {
+    vertical-align: middle;
+}
+
+.dropdown-arrow {
+    display: inline-block;
+    transform: rotate(90deg);
+    font-size: 14px;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+
+.nav-center {
+    display: inline-block;
+    margin-top: 6px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-item:hover, .nav-item.active {
+    color: #0d0d0d;
+}
+
+.nav-right {
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.btn-login {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    margin-right: 8px;
+}
+
+.btn-signup {
+    background-color: #ffffff;
+    color: #0d0d0d;
+    border: 1px solid #e5e5e5;
+    margin-right: 8px;
+}
+
+.btn-help {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #e5e5e5;
+    background: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.main-content {
+    width: 100%;
+    max-width: 1100px;
+    margin: 80px auto 0 auto;
+    padding: 0 20px;
+}
+
+.agent-container {
+    width: 100%;
+    font-size: 0; 
+}
+
+.agent-info {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+    font-size: 16px;
+    padding-right: 40px;
+}
+
+.agent-title {
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    letter-spacing: -1px;
+    color: #0d0d0d;
+}
+
+.agent-description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222222;
+    margin-bottom: 24px;
+}
+
+.agent-availability {
+    font-size: 13px;
+    color: #666666;
+    margin-bottom: 32px;
+}
+
+.btn-try {
+    display: inline-block;
+    background-color: #0d0d0d;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 24px;
+}
+
+.agent-visual {
+    display: inline-block;
+    width: 52%;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.blue-card {
+    width: 100%;
+    height: 480px;
+    background: linear-gradient(135deg, #a0c8ff 0%, #70a6ff 50%, #85b8ff 100%);
+    border-radius: 24px;
+    position: relative;
+}
+
+.floating-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 82%;
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.box-header {
+    margin-bottom: 12px;
+}
+
+.bulb-icon {
+    font-size: 18px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.box-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #555555;
+    vertical-align: middle;
+}
+
+.box-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222222;
+}
